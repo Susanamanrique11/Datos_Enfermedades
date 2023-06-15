@@ -1,0 +1,58 @@
+.general {
+    width: 100vw; /* vw significa viewport width y hace que ocupe el 100% del ancho de la ventana */
+    height: 100vh; /* ocupa el 100% de la altura de la ventana */
+    margin: 0;
+    text-align: center;
+    background-color: antiquewhite;}
+  
+  .login{
+  display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 170%;
+    color: rgb(18, 92, 40);
+    text-shadow: 2px 2px #b9b9b9;
+    font-family: 'Lobster', cursive;
+    background-color: antiquewhite;}
+  
+  .button_submit{
+  width: 100%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    background-color: rgb(228,255, 198);
+    border-style: none;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    align-items: center;
+  }
+  
+  .button_submit:hover{
+  background-color: aquamarine;
+  }
+  
+  .input_box_margin{
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  font-family: 'Pangolin', cursive;
+  margin: 5%;
+  }
+  
+  .form{
+  background-color: rgba(185, 255, 232, 0.733);
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    border-color: #ffffff00;
+    align-items: center;
+    text-align: left;
+    font-weight: bold;
+    padding: 15px;
+    padding-top: 3px;
+    border-radius: 15px;
+  }
